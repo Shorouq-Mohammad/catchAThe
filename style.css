@@ -1,0 +1,74 @@
+#container{
+    font-family: 'Caveat', cursive;
+    width: 650px;
+    height: 650px;
+    display: grid;
+    grid-template-areas: 
+    "t t t t"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "p p p p"
+    "f f f f";
+    background-color:lightgreen;
+    font-size: 24px;
+}
+
+#timer{
+    grid-area: t;
+    align-self: center;
+    justify-self: center;
+
+}
+#playGround{
+    /* display:grid; */
+    display: inline-block;
+    position: relative;
+    grid-area: p;
+    background-color: green;
+}
+#playGround div{
+    position: absolute;
+    
+}
+i{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+
+}
+#noMore{
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    color:red;
+}
+#footer{
+    
+    grid-area: f;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#catch{
+    background-color:blue;
+    width: 100%;
+    height: 100%;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+}
+#frogs, #level{
+    align-self: center;
+    justify-self: center;
+}
+
+/* i{
+    font-size: 100px;
+} */
+
